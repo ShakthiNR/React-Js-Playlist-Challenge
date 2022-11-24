@@ -11,7 +11,7 @@ Note:
 1. For State Management - Redux Toolkit is used
 2. To Fetch Data - fetch() and axios() are used
 3. React Virtualized - Used to load larger data set from json
-4. Error Handling for fetching data is implemented
+4. Error Handling for fetching data is implemented by the response status
 
 Versions:
 1) React - V18
