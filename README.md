@@ -8,15 +8,15 @@ Below Features are implemented
 5. Load saved playlists.
 
 Note:
-# For State Management - Redux Toolkit is used
-# To Fetch Data - fetch() and axios() are used
-# React Virtualized - Used to load larger data set from json
-# Error Handling for fetching data is implemented
+1. For State Management - Redux Toolkit is used
+2. To Fetch Data - fetch() and axios() are used
+3. React Virtualized - Used to load larger data set from json
+4. Error Handling for fetching data is implemented
 
 Versions:
-React - V18
-Router-Dom- V6
-Redux Toolkit - V1.9
+a. React - V18
+b.Router-Dom- V6
+c. Redux Toolkit - V1.9
 
 
 ![Image](https://user-images.githubusercontent.com/111413484/203853283-4c44a674-d1c9-4367-bec4-c4e2166fa4f5.jpg)
