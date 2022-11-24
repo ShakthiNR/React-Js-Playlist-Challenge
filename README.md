@@ -14,9 +14,9 @@ Note:
 4. Error Handling for fetching data is implemented
 
 Versions:
-a. React - V18
-b.Router-Dom- V6
-c. Redux Toolkit - V1.9
+1) React - V18
+2) Router-Dom- V6
+3) Redux Toolkit - V1.9
 
 
 ![Image](https://user-images.githubusercontent.com/111413484/203853283-4c44a674-d1c9-4367-bec4-c4e2166fa4f5.jpg)
