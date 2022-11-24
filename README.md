@@ -33,5 +33,5 @@ Versions Used:
 
 #Mobile Version
 
-![image](https://user-images.githubusercontent.com/111413484/203854368-e8807556-af7f-428c-8f0c-cf0d93c4873c.png)
+![image](https://user-images.githubusercontent.com/111413484/203855329-048a7a32-93c4-40ff-93ee-4bd570e49000.png)
 
