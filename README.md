@@ -5,3 +5,5 @@ Below Features are implemented
 3. Name and save a playlist.
 4. List saved playlists.
 5. Load saved playlists.
+
+For State Management - Redux Toolkit is used
