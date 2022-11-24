@@ -1,0 +1,142 @@
+.form {
+  margin: 20px;
+}
+
+input {
+  width: 40%;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  color: white;
+  background-color: black;
+  padding: 2px 5px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.display {
+  margin-top: 4%;
+}
+.letter {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.letter .letterspan {
+  background: #fff;
+  padding: 0 10px;
+}
+.deleteBtn {
+  color: white;
+  border: 1px solid red;
+  background-color: red;
+}
+input[type="text"] {
+
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+.tempSongs{
+    height: 100px ;
+    overflow: scroll;
+    border: 1px solid black ;
+    padding: 10px;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .songInfo{
+        font-size: 14px;
+    }
+
+    .createBtn{
+        font-size: 14px;
+        padding: 2px 15px ;
+    }
+
+    .tempSongs{
+        width: 60%;
+    }
+    .createInput{
+        width: 70% ;
+        font-size: 14px;
+    }
+    ::placeholder{
+        font-size: 14px;
+    }
+    input{
+        width: 70%;
+    }
+    .bgcolor {
+        font-size: 14px;
+    } 
+  }
+  @media only screen and (min-width: 768px) {
+    .songInfo{
+        font-size: 16px;
+    }
+
+    .createBtn{
+        font-size: 16px;
+        padding: 2px 15px ;
+    }
+
+    .tempSongs{
+        width: 60%;
+    }
+
+    .createInput{
+        width: 60% ;
+        font-size: 16px;
+    }
+    ::placeholder{
+        font-size: 16px;
+    }
+    input{
+        width: 70%;
+        font-size: 16px;
+    }
+
+    .bgcolor {
+        font-size: 16px;
+    }
+  } 
+
+  
+  @media only screen and (min-width: 1200px) {
+    .songInfo{
+        font-size: 18px;
+    }
+
+    .createBtn{
+        font-size: 18px;
+        padding: 1px 8px ;
+    }
+
+    .createInput{
+        width: 40% ;
+        font-size: 18px;
+    }
+    ::placeholder{
+        font-size: 18px;
+    }
+    .bgcolor {
+        font-size: 18px;
+    }
+    .tempSongs{
+        width: 50%;
+    }
+  }
+
+
+
+

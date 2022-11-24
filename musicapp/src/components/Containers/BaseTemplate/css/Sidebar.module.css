@@ -1,0 +1,192 @@
+ .background {
+     background: #000;
+     color: white;
+     height: 100vh;
+     box-shadow: 0 8px 8px -4px;
+
+ }
+
+ .mainTitle {
+     padding: 20px;
+     cursor: pointer;
+     border: 1px solid black;
+
+ }
+
+ .title {
+     transition: 0.5s;
+     
+  
+ }
+
+ .title:hover {
+     border: 1px solid white;
+     background-color: white;
+     color: black;
+     transition: 0.4s;
+    
+
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
+
+ }
+
+ .link {
+     margin: 16px;
+     border: 1px solid black;
+     cursor: pointer;
+     transition: .5s;
+     font-size: 18px;
+ }
+
+ .link:hover {
+     border: 1px solid white;
+     padding: 0px 10px;
+     transition: .5s;
+ }
+
+ .myplaylists {
+     margin: 10px;
+     height: 40vh;
+     width: auto;
+     overflow-y: scroll;
+     border: 1px solid white;
+     padding: 5px;
+ }
+
+ .singleplaylist {
+
+     padding: 5px 15px;
+     cursor: pointer;
+
+
+ }
+
+ .singleplaylist:hover {
+     background-color: grey;
+ }
+
+.myplaylistsHead{
+  
+        margin-left: 20px;
+        margin-bottom: 8px;
+        cursor: pointer;
+        padding-right: 20px;
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .link{
+        font-size: 14px;
+    }
+   .link:hover{
+    padding: 0 3px;
+   }
+.logo{
+    margin-top: 15px;
+    font-size: 35px;
+    transition: 0.7s;
+}
+.logo :hover{
+    color: gray;
+    background-color: white;
+    border: 1px solid black;
+    border: 50%;
+    transition: 0.7s;
+    
+}
+    .title:hover {
+        border: 0px solid white;
+        background-color: white;
+        color: black;
+        transition: 0.4s;
+        padding: 0px 0px;
+    }
+    
+
+    
+    .singleplaylist{
+        font-size: 13px;
+        padding: 2px 7px;
+    }
+    .myplaylistsHead{
+        font-size: 14px;
+    }
+    .title:hover {
+        padding: 0px 1px;
+    }
+   
+   
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    .link{
+        font-size: 16px;
+    }
+   .title{
+        font-size: 25px;
+    }
+    .singleplaylist{
+        font-size: 15px;
+        padding: 4px 9px;
+    }
+    .myplaylistsHead{
+        font-size: 16px;
+    }
+    .title:hover {
+        padding: 0px 2px;
+    }
+    .link:hover {
+        padding: 0px 8px;
+    }
+  } 
+  
+
+  @media only screen and (min-width: 1200px) {
+    .link{
+        font-size: 18px;
+    }
+   .title{
+        font-size: 26px;
+    }
+    .singleplaylist{
+        font-size: 18px;
+        padding: 5px 15px;
+    }
+    .myplaylistsHead{
+        font-size: 18px;
+    }
+    .title:hover {
+        padding: 0px 10px;
+    }
+    .link:hover {
+        padding: 0px 8px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

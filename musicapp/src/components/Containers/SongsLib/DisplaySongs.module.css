@@ -1,0 +1,56 @@
+
+.song{
+padding-top:5px;
+padding-left: 15px;
+cursor: pointer;
+font-size: 18px;
+margin-top: 10px;
+}
+
+.line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+    width: 80%;
+}
+@media only screen and (max-width: 600px) {
+
+    .song{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .line{
+        margin-top: 5px;
+        width: 70%;
+    }
+   
+  }
+  
+
+  @media only screen and (min-width: 768px) {
+    .song{
+        font-size: 16px;
+    }
+    .line{
+        margin-top: 6px;
+        width: 80%;
+    }
+  } 
+  
+
+  @media only screen and (min-width: 1200px) {
+    .song{
+        font-size: 18px;
+    }
+    .line{
+        margin-top: 6px;
+        width: 80%;
+    }
+  }
+
+
+
+
+
