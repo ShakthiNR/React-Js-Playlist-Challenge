@@ -14,6 +14,8 @@ Note:
 4. Error Handling while fetching data is implemented by checking the response status
 5. All API call are placed in Helper Folder
 6. All CSS files are placed in CSS Folder
+7. Reducers and actions are placed in Features Folder
+8. Components are placed in different parts BaseTemplate(Header, Sidebar, GetWidthHook(Custom Hook), Footer) , Playlist (Create and display the playlists), SongsLib(Load songs from .json() file)
 
 
 Versions Used:
